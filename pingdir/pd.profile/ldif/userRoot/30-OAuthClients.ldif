@@ -13,7 +13,7 @@ pf-oauth-client-supplemental-info: 44:BYPASS_ACTIVATION_CODE_CONFIRMATION_OVERRI
 pf-oauth-client-supplemental-info: 19:DEVICE_FLOW_SETTING:SERVER_DEFAULT
 pf-oauth-client-supplemental-info: 14:DEFAULT_ATM_ID:jwt
 pf-oauth-client-supplemental-info: 32:DEVICE_POLLING_INTERVAL_OVERRIDE:null
-pf-oauth-client-supplemental-info: 26:PING_ACCESS_LOGOUT_CAPABLE:false
+pf-oauth-client-supplemental-info: 26:PING_ACCESS_LOGOUT_CAPABLE:true
 pf-oauth-client-supplemental-info: 23:RESTRICT_RESPONSE_TYPES:false
 pf-oauth-client-supplemental-info: 29:ACCESS_SESSION_REVOCATION_API:false
 pf-oauth-client-supplemental-info: 34:PERSISTENT_GRANT_IDLE_TIMEOUT_TYPE:SERVER_DEFAULT
