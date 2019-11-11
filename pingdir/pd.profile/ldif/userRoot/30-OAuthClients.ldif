@@ -142,7 +142,7 @@ pf-oauth-client-supplemental-info: 28:id_token_signed_response_alg:null
 pf-oauth-client-id: PingIntrospect
 pf-oauth-client-persistent-grant-exp-type: SERVER_DEFAULT
 pf-oauth-client-authn-type: SECRET
-pf-oauth-client-hashed-secret: kAAHPsY7fiovCEYhRozyUxve2d0zrpc2BTRcJkaHJ3M.imuhJidX.2
+pf-oauth-client-hashed-secret: BN1EGqoAYOWTFzHDHWWLs_nxI4Uref4wvGhTDQSnRKQ.Po45j7Ij.2
 pf-oauth-client-persistent-grant-exp-time: 0
 pf-oauth-client-persistent-grant-exp-time-unit: d
 pf-oauth-client-enforce-replay-prevention: FALSE
