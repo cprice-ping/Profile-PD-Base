@@ -29,10 +29,10 @@ ROOT_USER_PASSWORD_FILE=${BASE}/staging/pwd
 # The replication administrator password file
 ADMIN_USER_PASSWORD_FILE=${ROOT_USER_PASSWORD_FILE}
 
-USER_ORG_BASE=example.com
+# USER_ORG_BASE=example.com
 
 # The user base dn may be provided (Default: dc=example,dc=com)
-USER_BASE_DN=dc=${USER_ORG_BASE}
+# USER_BASE_DN=dc=${USER_ORG_BASE}
 
 # The Java heap size may be provided
 # MAX_HEAP_SIZE=384m
@@ -52,5 +52,5 @@ ENCRYPTION_PASSWORD_FILE=${ROOT_USER_PASSWORD_FILE}
 #TAIL_LOG_FILES="/opt/out/instance/logs/access /opt/out/instance/logs/audit"
 
 # For Delegator
-PF_BASE_HOST=ext-docker.cpricelab.com
-PF_BASE_PORT=9031
+# PF_BASE_HOST=ext-docker.cpricelab.com
+# PF_BASE_PORT=9031
