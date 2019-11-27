@@ -29,10 +29,10 @@ ROOT_USER_PASSWORD_FILE=${BASE}/staging/pwd
 # The replication administrator password file
 ADMIN_USER_PASSWORD_FILE=${ROOT_USER_PASSWORD_FILE}
 
-USER_ORG_BASE=cpricelab.com
+# USER_ORG_BASE=cpricelab.com
 
 # The user base dn may be provided (Default: dc=example,dc=com)
-USER_BASE_DN=dc=${USER_ORG_BASE}
+# USER_BASE_DN=dc=${USER_ORG_BASE}
 
 # The Java heap size may be provided
 # MAX_HEAP_SIZE=384m
