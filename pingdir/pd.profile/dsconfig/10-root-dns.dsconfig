@@ -19,6 +19,7 @@ dsconfig create-root-dn-user \
     --set privilege:config-read  \
     --set privilege:password-reset  \
     --set privilege:unindexed-search \
+    --set privilege:proxied-auth \
     --set password<${ROOT_USER_PASSWORD_FILE}
 
 #
@@ -35,6 +36,7 @@ dsconfig create-root-dn-user \
   --set privilege:unindexed-search \
   --set privilege:config-read \
   --set is-proxyable:prohibited \
+  --set privilege:proxied-auth \
   --set password<${ROOT_USER_PASSWORD_FILE}
 
 #

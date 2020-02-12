@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+
+  pingdirectory:
+    image: pingidentity/pingdirectory:edge
+    environment:
+      # My changes to GET Baseline
+      - SERVER_PROFILE_URL=https://github.com/cprice-ping/Profile-PD-Base.git
+      - SERVER_PROFILE_PATH=pingdir
+      # GTE Baseline Profile
+      - SERVER_PROFILE_PARENT=BASELINE
+      - SERVER_PROFILE_BASELINE_URL=https://github.com/pingidentity/pingidentity-server-profiles.git
+      - SERVER_PROFILE_BASELINE_PATH=baseline/pingdirectory
+    env_file:
+      - ~/.pingidentity/devops
+      - ./env_vars
+    #volumes:
+    #   - ${HOME}/projects/devops/volumes/simple-sync.pingdirectory:/opt/out
+    #   - ${HOME}/projects/devops/pingidentity-server-profiles/baseline/pingdirectory:/opt/in
+    ports:
+      - 1636:636
+      - 1443:443
+    networks:
+      - pingnet
