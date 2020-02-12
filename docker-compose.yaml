@@ -23,3 +23,6 @@ services:
       - 1443:443
     networks:
       - pingnet
+
+  networks:
+    pingnet:
